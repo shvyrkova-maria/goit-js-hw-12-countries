@@ -1,0 +1,47 @@
+.country {
+  display: flex;
+  justify-content: space-around;
+  min-width: 600px;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: rgb(245, 241, 241);
+}
+
+.country-main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.country-name {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2c2c2c;
+}
+
+.country-capital,
+.country-population {
+  margin-bottom: 8px;
+}
+
+.country-lang {
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
+
+.text-accent {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.country-flag {
+  display: block;
+  max-width: 400px;
+  height: auto;
+}
