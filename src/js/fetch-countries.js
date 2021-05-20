@@ -6,7 +6,6 @@ export default class SearchApi {
   fetchCountries() {
     const URL = 'https://restcountries.eu/rest/v2/name';
     return fetch(`${URL}/${this.searchQuery}`).then(response => {
-      console.log(response);
       if (response.ok) {
         return response.json();
       }
